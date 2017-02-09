@@ -36,6 +36,8 @@ testCi: $(OBJS) $(USER_OBJS)
 clean:
 	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) testCi
 	-@echo ' '
+test:
+	./ad_parser
 
 .PHONY: all clean dependents
 .SECONDARY:
