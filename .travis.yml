@@ -3,7 +3,7 @@ compiler:
   - gcc
 before_install:
   - test -n $CC && unset CC
-install: make 
+# install: make 
 script: bundle exec rspec spec
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
