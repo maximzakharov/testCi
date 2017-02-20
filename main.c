@@ -21,6 +21,11 @@ TEST(FirstTestGroup, FirstTest)
 {
    FAIL("Fail me!");
 }
+
+TEST(FirstTestGroup, SecondTest)
+{
+   CHECK(true);
+}
 //
 //
 //
